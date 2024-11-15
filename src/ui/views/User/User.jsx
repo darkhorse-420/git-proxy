@@ -36,6 +36,9 @@ export default function Dashboard() {
   const navigate = useNavigate();
   const { id } = useParams();
 
+
+
+
   useEffect(() => {
     if (id == null) {
       setIsProfile(true);
